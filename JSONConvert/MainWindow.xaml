@@ -1,0 +1,19 @@
+﻿<Window x:Class="JSONConvert.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="800" Width="825">
+    <Grid>
+        <Label Content="JSON String to be Converted" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="798"/>
+        <Label Content="C# Converted Type" HorizontalAlignment="Left" Margin="631,278,-610.6,0" VerticalAlignment="Top" Width="798"/>
+        <Button Content="Close" HorizontalAlignment="Left" Margin="166,260,0,0" VerticalAlignment="Top" Width="150" Height="44" Click="Button_Click_1"/>
+        <Button Content="Convert" HorizontalAlignment="Left" Margin="11,260,0,0" VerticalAlignment="Top" Width="150" Height="44" Click="Button_Click"/>
+        <TreeView x:Name="treeViewOut" HorizontalAlignment="Left" Height="384" Margin="11,309,0,0" VerticalAlignment="Top" Width="797"/>
+        <Button x:Name="buttonClear" Content="Clear Tree View" HorizontalAlignment="Left" Margin="321,260,0,0" VerticalAlignment="Top" Width="150" Height="44" Click="buttonClear_Click"/>
+        <Button x:Name="buttonClearText" Content="Clear JSON text" HorizontalAlignment="Left" Margin="476,260,0,0" VerticalAlignment="Top" Width="150" Height="44" Click="buttonClearText_Click"/>
+        <RichTextBox x:Name="rtbIn" HorizontalAlignment="Left" Height="219" Margin="10,36,0,0" VerticalAlignment="Top" Width="798">
+            <FlowDocument/>
+        </RichTextBox>
+
+
+    </Grid>
+</Window>
